@@ -9,6 +9,14 @@ emoticons = YAML.load_file("./lib/emoticons.yml")
     emoticons_final_hash[key] = {}
       emoticons_final_hash[key][:english] = value[0]
       emoticons_final_hash[key][:japanese] = value[1]
+
+end
+end
+
+def load_library(file)
+  emoticons = YAML.load_file("./lib/emoticons.yml")
+  emoticons.each do |emotion|
+    
   end
 end
 
